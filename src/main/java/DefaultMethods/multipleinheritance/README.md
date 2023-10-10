@@ -1,4 +1,4 @@
-# multipleInheritance
+# Multiple Inheritance
 Java allows multiple inheritance 
 for Ex: Vehicle interface and Alarm interface has same default methods and method signature  
 simply code won't compile, as there's conflict caused by multiple interface inheritance.(a.k.a. Diamond problem) 
