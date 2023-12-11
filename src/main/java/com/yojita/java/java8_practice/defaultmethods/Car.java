@@ -1,6 +1,6 @@
-package DefaultMethods;
+package com.yojita.java.java8_practice.defaultmethods;
 
-public class Car implements Vehicle{
+public class Car implements Vehicle {
 
     private String brand;
 
