@@ -1,4 +1,4 @@
-# multipleInheritance
+# Multiple Inheritance
 
 Java allows multiple inheritance
 for Ex: Vehicle interface and Alarm interface has same default methods and method signature  
