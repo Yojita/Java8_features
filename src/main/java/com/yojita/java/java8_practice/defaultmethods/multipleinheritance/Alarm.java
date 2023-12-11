@@ -1,12 +1,6 @@
-package DefaultMethods;
+package com.yojita.java.java8_practice.defaultmethods.multipleinheritance;
 
-public interface Vehicle {
-    String getBrandName();
-
-    String speedUp();
-
-    String slowdown();
-
+public interface Alarm {
     default String turnAlarmOn() {
         return "Turning on the alarm";
     }

@@ -1,6 +1,6 @@
-package DefaultMethods.multipleinheritance;
+package com.yojita.java.java8_practice.defaultmethods.multipleinheritance;
 
-public class Car implements Alarm, Vehicle{
+public class Car implements Alarm, Vehicle {
 
     // Approach no : 1
     /*@Override
@@ -15,20 +15,19 @@ public class Car implements Alarm, Vehicle{
 
     // Approach No :2
 
-    public String turnAlarmOn(){
-       return Vehicle.super.turnAlarmOn();
-    }
-
-    public String turnAlarmOff(){
-        return Alarm.super.turnAlarmOff();
-    }
-
     public static void main(String[] args) {
         Car car = new Car();
         System.out.println(car.turnAlarmOn());
         System.out.println(car.turnAlarmOff());
 
 
+    }
 
+    public String turnAlarmOn() {
+        return Vehicle.super.turnAlarmOn();
+    }
+
+    public String turnAlarmOff() {
+        return Alarm.super.turnAlarmOff();
     }
 }

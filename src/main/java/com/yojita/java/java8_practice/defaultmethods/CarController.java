@@ -1,4 +1,4 @@
-package DefaultMethods;
+package com.yojita.java.java8_practice.defaultmethods;
 
 public class CarController {
     public static void main(String[] args) {
